@@ -21,6 +21,7 @@ for(int i=2;i<=n;i++)
 
 	if(c==0)
 	{
+		System.out.print("hannock");
 		System.out.println(i);
 		
 		sum=sum+i;
