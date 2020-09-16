@@ -1,31 +1,14 @@
 package com.vedika.functionhall.model;
 
-import java.util.List;
-
 public class Response {
+	private String msg;
 
-	
-	
-	private List<FunctionHallUIResponse> functionHalls;
-
-	public List<FunctionHallUIResponse> getFunctionHalls() {
-		return functionHalls;
+	public String getMsg() {
+		return msg;
 	}
 
-	public void setFunctionHalls(List<FunctionHallUIResponse> functionHalls) {
-		this.functionHalls = functionHalls;
+	public void setMsg(String msg) {
+		this.msg = msg;
 	}
-
-	@Override
-	public String toString() {
-		return "Response [functionHalls=" + functionHalls + ", getFunctionHalls()=" + getFunctionHalls()
-				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
-				+ "]";
-	}
-
-
-	
-
-
 
 }

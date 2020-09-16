@@ -1,3 +1,4 @@
+
 package com.vedika.functionhall.model;
 
 import java.util.List;
@@ -8,46 +9,53 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "functionhall_reference_data")
 public class Owner {
 	@Id
-	private String id;
+	private String ownerId;
+	private String corelationId;
 	private String name;
-
 	private String firstName;
-
 	private String lastName;
-
+	private String functionhallname;
 	private String city;
-
 	private String state;
-
 	private String zipcode;
-    private String ownerContactNumber;
-
+	private String ownerContactNumber;
 
 	/* db ref */
+
 	private List<FunctionHall> functionhall;
- 
-public String getOwnerContactNumber() {
-		return ownerContactNumber;
+    
+	private List<AccountDetails> accountdetails;
+
+	public List<AccountDetails> getAccountdetails() {
+		return accountdetails;
 	}
 
-	public void setOwnerContactNumber(String ownerContactNumber) {
-		this.ownerContactNumber = ownerContactNumber;
+	public void setAccountdetails(List<AccountDetails> accountdetails) {
+		this.accountdetails = accountdetails;
 	}
 
-public String getName() {
+	public String getCorelationId() {
+		return corelationId;
+	}
+
+	public void setCorelationId(String corelationId) {
+		this.corelationId = corelationId;
+	}
+
+	public String getOwnerId() {
+		return ownerId;
+	}
+
+	public void setOwnerId(String ownerId) {
+		this.ownerId = ownerId;
+	}
+
+	public String getName() {
 		return name;
 	}
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
 	}
 
 	public String getFirstName() {
@@ -64,6 +72,14 @@ public String getName() {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getFunctionhallname() {
+		return functionhallname;
+	}
+
+	public void setFunctionhallname(String functionhallname) {
+		this.functionhallname = functionhallname;
 	}
 
 	public String getCity() {
@@ -90,6 +106,14 @@ public String getName() {
 		this.zipcode = zipcode;
 	}
 
+	public String getOwnerContactNumber() {
+		return ownerContactNumber;
+	}
+
+	public void setOwnerContactNumber(String ownerContactNumber) {
+		this.ownerContactNumber = ownerContactNumber;
+	}
+
 	public List<FunctionHall> getFunctionhall() {
 		return functionhall;
 	}
@@ -100,11 +124,10 @@ public String getName() {
 
 	@Override
 	public String toString() {
-		return "Owner [id=" + id + ", name=" + name + ", firstName=" + firstName + ", lastName=" + lastName + ", city="
-				+ city + ", state=" + state + ", zipcode=" + zipcode + ", ownerContactNumber=" + ownerContactNumber
-				+ ", functionhall=" + functionhall + "]";
+		return "Owner [ownerId=" + ownerId + ", corelationId=" + corelationId + ", name=" + name + ", firstName="
+				+ firstName + ", lastName=" + lastName + ", functionhallname=" + functionhallname + ", city=" + city
+				+ ", state=" + state + ", zipcode=" + zipcode + ", ownerContactNumber=" + ownerContactNumber
+				+ ", functionhall=" + functionhall + ", accountdetails=" + accountdetails + "]";
 	}
 
-
-	
 }

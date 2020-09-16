@@ -2,8 +2,8 @@ plugins {
 	id 'org.springframework.boot' version '2.2.6.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 	id 'java'
+	id 'war'
 }
-
 group = 'com.vedikas'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
@@ -22,9 +22,33 @@ dependencies {
  
  
 	
-	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+	//implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+	//compile 'org.springframework.boot:spring-boot-starter-data-mongodb'
+
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-mongodb
+compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '1.1.0.RELEASE'
+     
+
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+		//runtime group: 'com.twilio.sdk', name: 'twilio', version: '7.1.0'
+		compile group: 'com.twilio.sdk', name: 'twilio', version: '7.1.0'
+//Thanks for using https://jar-download.com
+
+compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'
+
+	// https://mvnrepository.com/artifact/javax.validation/validation-api
+compile group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+	
+		
+	
+	// https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk
+compile group: 'com.amazonaws', name: 'aws-java-sdk', version: '1.2.1'
+	  
+// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.2'
+
+
 	compileOnly 'org.projectlombok:lombok'
 	compile group: 'com.amazonaws', name: 'aws-java-sdk', version: '1.11.133'
 	

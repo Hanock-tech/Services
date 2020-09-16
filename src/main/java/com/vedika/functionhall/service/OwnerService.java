@@ -1,22 +1,21 @@
 package com.vedika.functionhall.service;
 
+import java.io.FileNotFoundException;
 import java.util.List;
 
-import org.springframework.data.mongodb.repository.Query;
+import org.springframework.stereotype.Service;
 
 import com.vedika.functionhall.model.Owner;
 
-public interface OwnerService  {
+@Service
+public interface OwnerService {
 
-    List<Owner> findAll();
-    
-    Owner saveOrUpdateOwner(Owner owner);
-    @Query(value="{ 'functionhall.city' : ?0 }")
-	List<Owner> findFunctionHallByCity(String city);
+	Owner saveOrUpdateOwner(Owner owner);
 
-	   @Query(value ="{ 'functionhall.name' : ?0 }")
-	List<Owner> findFunctionHallByName(String name);
+	List<Owner> findFunctionHallByNameAndCity(String city, String name, int maximumguest);
 
-	  
- 
+	void update(String correlationid, String imageUrl) throws FileNotFoundException, RuntimeException;
+
+	List<Owner> findByownerID(String _id);
+
 }
