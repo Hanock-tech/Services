@@ -1,0 +1,54 @@
+id,category,firstname,lastname,gender,dob,previous_school,doj,class,post,salary,class_teacher_of,roll_no,emp_no,total_marks,city,aadhar_number,contact_number,blood_group,subject_teaches,hs_stream,sec_percent
+1,student,Hoo,Boo,m,3/14/1995,,,XI,,,,90,,875,pune,6366-45345-45345,92342323,B+,,arts,80
+2,teacher,Foo,Bar,f,3/14/1986,KVS Sec School,3/22/2010,,assistant teacher,40000,VII,,VG001,,kolkata,3442-23422-3422,73496943,O-,Physics-Chemistry-Math,,
+3,student,Rama,Murugan,m,3/14/2000,,,VIII,,,,1003,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+4,student,Ramakrishna,Murugan,m,3/14/2001,,,VIII,,,,1004,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+5,teacher,Foo,Bar,f,3/14/2000,KVS Sec School,10/23/2002,,assistant teacher,38000,VII,,VG001,,kolkata,2423-1486-7115,735969432,O-,Physics-Chemistry-Math,,
+6,teacher,Woo,Baa,f,3/14/1989,Rkms English Sec School,10/23/2010,,assistant teacher,55000,VII,,HG001,,kolkata,2423-1486-7114,734969432,O+,Physics-Chemistry,,
+7,teacher,Malabika,Das,f,3/14/1970,Rkms English Sec School,10/23/1995,,assistant teacher,45000,IX,,Hj001,,kolkata,2423-1486-7112,734969478,O+,Fine/Arts,,
+8,student,prashant,kumar,m,1/14/1981,,,X,,,,1005,,742,kolkata,8929-2092-2425,90113157,O+,,science,85
+9,student,Rahul,Sen,m,12/18/1988,,,XI,,,,1006,,785,kolkata,8929-2092-9535,90113721,O+,,science,86
+10,teacher,Div,pathak,f,8/14/1979,KPS School,10/23/1992,,Japanese teacher,80000,N3,,VG0011,,Pune,3442-23422-3455,73496943,O-,N5-N3,,
+11,teacher,mohini,Baar,f,7/14/1967,MNPS School,10/23/1989,,assistant teacher,85000,X,,VG0010,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+12,teacher,mohin,Baar,f,6/14/1967,MNPS School,10/23/1990,,assistant teacher,85000,X,,VG009,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+13,teacher,mohishi,Baar,f,3/16/1967,MNPS School,10/23/1991,,assistant teacher,85000,X,,VG008,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+14,student,Rameshwaram,Murugan,m,3/17/2000,,,VIII,,,,1007,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+15,student,Rakesh,Murugan,m,7/11/2000,,,VIII,,,,1008,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+16,student,Sunita,Muru,m,3/14/2006,,,VIII,,,,1009,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+17,teacher,Sunil,Baar,f,2/19/1967,MNPS School,10/2/1994,,assistant teacher,85000,X,,VG007,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+18,student,suni,Murugan,m,3/18/2000,,,VIII,,,,1010,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+19,student,Rama,Murugan,m,2/16/2001,,,VIII,,,,1011,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+20,teacher,koo,Baar,f,9/14/1966,MNPS School,11/22/1989,,assistant teacher,85000,X,,VG006,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+21,teacher,koo,Baar,f,8/14/1967,MNPS School,11/27/1988,,assistant teacher,85000,X,,VG005,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+21,student,Hoo,Boo,m,6/14/1995,,,XI,,,,9002,,875,pune,6366-45345-45345,92342323,B+,,arts,80
+22,student,Hoo,Baa,m,4/14/1995,,,XI,,,,9003,,875,pune,6366-45345-45345,92342323,B+,,arts,80
+23,teacher,koo,Boo,f,3/14/1967,MNPS School,12/29/1989,,assistant teacher,85000,X,,VG004,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+24,teacher,kumar,sss,f,3/14/1966,MNPS School,10/13/1986,,assistant teacher,85000,X,,VG012,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+25,teacher,koo,Boo,f,3/14/1967,MNPS School,10/23/1989,,assistant teacher,85000,X,,VG013,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+26,teacher,koo,Boo,f,3/14/1967,MNPS School,10/23/1989,,assistant teacher,85000,X,,VG014,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+27,student,Hoo,Baa,m,6/14/1995,,,XI,,,,9004,,875,pune,6366-45345-45345,92342323,B+,,arts,80
+28,student,Hoo,Bqq,m,6/14/1995,,,XI,,,,9005,,875,pune,6366-45345-45345,92342323,B+,,arts,80
+29,student,Hoo,Bff,m,6/14/1995,,,XI,,,,9006,,875,pune,6366-45345-45345,92342323,B+,,arts,80
+30,student,Hoo,Bll,m,6/14/1995,,,XI,,,,9007,,875,pune,6366-45345-45345,92342323,B+,,arts,80
+31,teacher,Malabika,Das,f,3/14/1970,Rkms English Sec School,11/23/1995,,assistant teacher,45000,IX,,VG015,,kolkata,2423-1486-7112,734969478,O+,Fine/Arts,,
+32,teacher,Malabi,Das,f,3/14/1970,Rkms English Sec School,10/28/1995,,assistant teacher,45000,IX,,VG016,,kolkata,2423-1486-7112,734969478,O+,Fine/Arts,,
+33,student,Ramu,Murugan,m,3/14/2001,,,VIII,,,,1004,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+34,teacher,koo,Boo,f,3/14/1967,MNPS School,10/22/1989,,assistant teacher,85000,X,,VG017,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+35,teacher,koo,Boo,f,3/14/1967,MNPS School,10/23/1989,,assistant teacher,85000,X,,VG018,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+36,student,prashant,kumar,m,1/14/1981,,,X,,,,1005,,600,kolkata,8929-2092-2425,90113157,O+,,science,72
+37,student,Rahul,Sen,m,12/18/1988,,,XI,,,,1012,,685,kolkata,8929-2092-9535,90113721,O+,,science,77
+38,student,Rahul,Sen,m,12/18/1986,,,XI,,,,1013,,685,kolkata,8929-2092-9535,90113721,O+,,science,77
+39,teacher,Div,pathak,f,8/14/1979,KPS School,10/23/1992,,Japanese teacher,80000,N3,,VG019,,Pune,3442-23422-3455,73496943,O-,N5-N3,,
+40,teacher,Sunil,Baar,f,2/19/1967,MNPS School,10/2/1994,,assistant teacher,85000,X,,VG0120,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+41,student,suni,Murugan,m,3/18/2000,,,VIII,,,,1014,,672,chennai,8929-2092-2322,90113121,B-,,science,83
+42,teacher,Sunil,Baar,f,2/19/1967,MNPS School,10/2/1994,,assistant teacher,85000,X,,VG021,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+43,student,suni,Murugan,m,3/18/2000,,,VIII,,,,1015,,672,chennai,8929-2092-2322,90113121,B-,,science,82
+44,student,suni,Murugan,m,3/18/2000,,,VIII,,,,1016,,672,chennai,8929-2092-2322,90113121,B-,,science,86
+45,teacher,koo,Boo,f,3/14/1967,MNPS School,10/23/1989,,assistant teacher,85000,X,,VG022,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+46,teacher,koo,Boo,f,3/14/1967,MNPS School,10/23/1989,,assistant teacher,85000,X,,VG023,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+47,student,Rahul,hoo,m,12/18/1988,,,XI,,,,1017,,785,kolkata,8929-2092-9535,90113721,O+,,science,85
+48,student,Rahul,boo,m,12/18/1988,,,XI,,,,1018,,785,kolkata,8929-2092-9535,90113721,O+,,science,82
+49,teacher,Sunil,Baar,f,2/19/1967,MNPS School,10/2/1994,,assistant teacher,85000,X,,VG024,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+50,student,suni,sss,m,3/18/2000,,,VIII,,,,1019,,672,chennai,8929-2092-2345,90113121,B-,,science,88
+51,teacher,Sunil,Boo,f,2/19/1967,MNPS School,10/2/1994,,assistant teacher,85000,X,,VG025,,Pune,3442-23422-3455,73496943,A+,History-Civics-Geography,,
+52,student,suni,Muru,m,3/18/2000,,,VIII,,,,1020,,672,chennai,8929-2092-2321,90113121,B-,,science,89
